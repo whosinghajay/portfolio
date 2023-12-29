@@ -31,7 +31,7 @@ export default function Intro() {
           >
             <Image
               src={
-                "https://media.istockphoto.com/id/958064228/photo/portrait-of-happy-young-man.jpg?s=612x612&w=is&k=20&c=aSA6MAeUA8LngFd23ELCLuyhA9et1uP4GHeySt_MEC0="
+                "https://media.licdn.com/dms/image/D5603AQGvqSHgHpA_uA/profile-displayphoto-shrink_200_200/0/1696873391071?e=1709164800&v=beta&t=qBdl8BucAiYo4_a7Djtza7J1uh3bBBG34Imqf27FxQk"
               }
               alt="Portrait"
               height={"192"}
