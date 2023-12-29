@@ -80,14 +80,14 @@ export const projectsData = [
     description:
       "Recreating dynamic threaded conversations with a modern touch, fostering engaging and organized communication in a user-friendly interface.",
     tags: ["React", "Nodejs", "Expressjs", "MongoDB"],
-    imageUrl: rmtdevImg,
+    imageUrl: wordanalyticsImg,
   },
   {
     title: "Personal Portfolio",
     description:
       "Dynamic personal portfolio showcasing my expertise in Web development and a passion for continuous learning.",
     tags: ["React", "Next.js", "Tailwind", "Framer", "Typescript"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: rmtdevImg,
   },
 ] as const;
 
