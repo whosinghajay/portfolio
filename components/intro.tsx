@@ -91,7 +91,7 @@ export default function Intro() {
         </Link>
         <Link
           href={""}
-          className="group bg-rose-500 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-rose-550 active:scale-105 transition"
+          className="group bg-rose-500 dark:bg-white/10 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:bg-rose-550 active:scale-105 transition"
           target="_blank"
         >
           My Resume
