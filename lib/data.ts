@@ -74,6 +74,7 @@ export const projectsData = [
       "Typescript",
     ],
     imageUrl: corpcommentImg,
+    githubLink: "https://github.com/whosinghajay/discord-clone",
   },
   {
     title: "Thread Clone",
@@ -81,6 +82,7 @@ export const projectsData = [
       "Recreating dynamic threaded conversations with a modern touch, fostering engaging and organized communication in a user-friendly interface.",
     tags: ["React", "Nodejs", "Expressjs", "MongoDB"],
     imageUrl: wordanalyticsImg,
+    githubLink: "https://github.com/whosinghajay/ThreadClone",
   },
   {
     title: "Personal Portfolio",
@@ -88,6 +90,7 @@ export const projectsData = [
       "Dynamic personal portfolio showcasing my expertise in Web development and a passion for continuous learning.",
     tags: ["React", "Next.js", "Tailwind", "Framer", "Typescript"],
     imageUrl: rmtdevImg,
+    githubLink: "https://github.com/whosinghajay/portfolio-nextjs",
   },
 ] as const;
 
