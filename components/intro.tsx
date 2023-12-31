@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
 
 export default function Intro() {
@@ -105,11 +105,11 @@ export default function Intro() {
           <FaLinkedin size={"30"} />
         </Link>
         <Link
-          href={"https://www.instagram.com/ajayyssingh/"}
+          href={"https://www.github.com/whosinghajay/"}
           className="p-2 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-[1.25] active:scale-105 transition"
           target="_blank"
         >
-          <FaInstagram size={"30"} />
+          <FaGithub size={"30"} />
         </Link>
       </motion.div>
     </section>
