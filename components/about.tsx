@@ -23,8 +23,8 @@ export default function About() {
         with the expertise in{" "}
         <span className="italic">React, Node, Express, MongoDB</span>. My
         proficiency extends to technologies like{" "}
-        <span className="underline">Typescript</span> and{" "}
-        <span className="underline">Next.js</span>, enabling me to build robust
+        <span className="font-medium">Typescript</span> and{" "}
+        <span className="font-semibold">Next.js</span>, enabling me to build robust
         and scalable web applications.
       </p>
       <p className="mb-3">
