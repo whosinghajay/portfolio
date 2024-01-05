@@ -68,9 +68,7 @@ export const projectsData = [
     tags: [
       "React",
       "Next.js",
-      "PlanetScale",
       "Tailwind",
-      "Prisma",
       "Typescript",
     ],
     imageUrl: corpcommentImg,
@@ -80,7 +78,7 @@ export const projectsData = [
     title: "Thread Clone",
     description:
       "Recreating dynamic threaded conversations with a modern touch, fostering engaging and organized communication in a user-friendly interface.",
-    tags: ["React", "Nodejs", "Expressjs", "MongoDB"],
+    tags: ["React", "Nodejs", "Express", "MongoDB"],
     imageUrl: wordanalyticsImg,
     githubLink: "https://github.com/whosinghajay/ThreadClone",
   },
