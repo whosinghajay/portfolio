@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.jpg";
+import groupMessaging from "@/public/groupMessaging.png";
+import portfolio from "@/public/portfolio.png";
+import threadClone from "@/public/threadClone.jpg";
+import taskify from "@/public/taskify.png";
 
 export const links = [
   {
@@ -65,13 +66,8 @@ export const projectsData = [
     title: "Group Messaging App",
     description:
       "Streamlined communication for teams with real-time chat, multimedia sharing, and user-friendly features for efficient collaboration and connection.",
-    tags: [
-      "React",
-      "Next.js",
-      "Tailwind",
-      "Typescript",
-    ],
-    imageUrl: corpcommentImg,
+    tags: ["React", "Next.js", "Tailwind", "Typescript"],
+    imageUrl: groupMessaging,
     githubLink: "https://github.com/whosinghajay/discord-clone",
   },
   {
@@ -79,15 +75,23 @@ export const projectsData = [
     description:
       "Recreating dynamic threaded conversations with a modern touch, fostering engaging and organized communication in a user-friendly interface.",
     tags: ["React", "Nodejs", "Express", "MongoDB"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: threadClone,
     githubLink: "https://github.com/whosinghajay/ThreadClone",
+  },
+  {
+    title: "Taskify",
+    description:
+      "Efficient task management web app: streamline productivity with intuitive design and seamless collaboration features.",
+    tags: ["React", "Next.js", "Tailwind", "Typescript"],
+    imageUrl: taskify,
+    githubLink: "https://github.com/whosinghajay/taskify",
   },
   {
     title: "Personal Portfolio",
     description:
       "Dynamic personal portfolio showcasing my expertise in Web development and a passion for continuous learning.",
     tags: ["React", "Next.js", "Tailwind", "Framer", "Typescript"],
-    imageUrl: rmtdevImg,
+    imageUrl: portfolio,
     githubLink: "https://github.com/whosinghajay/portfolio-nextjs",
   },
 ] as const;
