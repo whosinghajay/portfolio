@@ -1,11 +1,13 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaNodeJs } from "react-icons/fa";
+import { GiSmartphone } from "react-icons/gi";
 import groupMessaging from "@/public/groupMessaging.png";
 import portfolio from "@/public/portfolio.png";
 import threadClone from "@/public/threadClone.jpg";
 import taskify from "@/public/taskify.png";
+import foodDelivery from "@/public/foodDelivery.jpg";
 
 export const links = [
   {
@@ -48,7 +50,7 @@ export const experiencesData = [
     location: "India",
     description:
       "I commenced my journey with front-end technologies—HTML, CSS, and JavaScript. Subsequently, I transitioned to React, concurrently fostering an interest in backend development.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2023",
   },
   {
@@ -56,7 +58,15 @@ export const experiencesData = [
     location: "India",
     description:
       "As a self-driven full-stack developer, I proficiently utilize React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities and collaborations.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaNodeJs),
+    date: "2024",
+  },
+  {
+    title: "Mobile App Developer",
+    location: "India",
+    description:
+      "Evolved from MERN and Next.js web development to immerse in React Native, now crafting seamless cross-platform experiences in the dynamic realm of mobile app development.",
+    icon: React.createElement(GiSmartphone),
     date: "present",
   },
 ] as const;
@@ -94,6 +104,14 @@ export const projectsData = [
     imageUrl: portfolio,
     githubLink: "https://github.com/whosinghajay/portfolio-nextjs",
   },
+  {
+    title: "Food Delivery(Mobile App)",
+    description:
+      "Crafted a visually appealing Food Delivery mobile app UI using React Native for a delightful user experience.",
+    tags: ["React Native", "Tailwind", "Typescript"],
+    imageUrl: foodDelivery,
+    githubLink: "https://github.com/whosinghajay/foodDelivery",
+  },
 ] as const;
 
 export const skillsData = [
@@ -113,4 +131,6 @@ export const skillsData = [
   "Framer Motion",
   "Shadcn/UI",
   "C++",
+  "React Native",
+  
 ] as const;
