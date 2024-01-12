@@ -59,16 +59,16 @@ export const experiencesData = [
     description:
       "As a self-driven full-stack developer, I proficiently utilize React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities and collaborations.",
     icon: React.createElement(FaNodeJs),
-    date: "2024",
-  },
-  {
-    title: "Mobile App Developer",
-    location: "India",
-    description:
-      "Evolved from MERN and Next.js web development to immerse in React Native, now crafting seamless cross-platform experiences in the dynamic realm of mobile app development.",
-    icon: React.createElement(GiSmartphone),
     date: "present",
   },
+  // {
+  //   title: "Mobile App Developer",
+  //   location: "India",
+  //   description:
+  //     "Evolved from MERN and Next.js web development to immerse in React Native, now crafting seamless cross-platform experiences in the dynamic realm of mobile app development.",
+  //   icon: React.createElement(GiSmartphone),
+  //   date: "present",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -96,22 +96,22 @@ export const projectsData = [
     imageUrl: taskify,
     githubLink: "https://github.com/whosinghajay/taskify",
   },
-  {
-    title: "Personal Portfolio",
-    description:
-      "Dynamic personal portfolio showcasing my expertise in Web development and a passion for continuous learning.",
-    tags: ["React", "Next.js", "Tailwind", "Framer", "Typescript"],
-    imageUrl: portfolio,
-    githubLink: "https://github.com/whosinghajay/portfolio-nextjs",
-  },
-  {
-    title: "Food Delivery(Mobile App)",
-    description:
-      "Crafted a visually appealing Food Delivery mobile app UI using React Native for a delightful user experience.",
-    tags: ["React Native", "Tailwind", "Typescript"],
-    imageUrl: foodDelivery,
-    githubLink: "https://github.com/whosinghajay/foodDelivery",
-  },
+  // {
+  //   title: "Personal Portfolio",
+  //   description:
+  //     "Dynamic personal portfolio showcasing my expertise in Web development and a passion for continuous learning.",
+  //   tags: ["React", "Next.js", "Tailwind", "Framer", "Typescript"],
+  //   imageUrl: portfolio,
+  //   githubLink: "https://github.com/whosinghajay/portfolio-nextjs",
+  // },
+  // {
+  //   title: "Food Delivery(Mobile App)",
+  //   description:
+  //     "Crafted a visually appealing Food Delivery mobile app UI using React Native for a delightful user experience.",
+  //   tags: ["React Native", "Tailwind", "Typescript"],
+  //   imageUrl: foodDelivery,
+  //   githubLink: "https://github.com/whosinghajay/foodDelivery",
+  // },
 ] as const;
 
 export const skillsData = [
@@ -132,5 +132,4 @@ export const skillsData = [
   "Shadcn/UI",
   "C++",
   "React Native",
-  
 ] as const;
