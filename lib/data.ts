@@ -132,4 +132,6 @@ export const skillsData = [
   "Shadcn/UI",
   "C++",
   "React Native",
+  "SQL",
+  "Linux",
 ] as const;
